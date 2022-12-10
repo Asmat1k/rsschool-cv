@@ -1,5 +1,4 @@
 # **Tim Dobrov**
-====
 ## How to find me:
 * My location:
     + Russia, Saint-Petersburg
