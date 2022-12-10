@@ -20,3 +20,28 @@ I’m currently a second year student at BSTU “Voenmeh”, St. Petersburg. I�
 * C, C++, C#
 ====
 ## My code:
+### Task 
+Deoxyribonucleic acid, DNA is the primary information storage molecule in biological systems. It is composed of four nucleic acid bases Guanine ('G'), Cytosine ('C'), Adenine ('A'), and Thymine ('T').
+
+Ribonucleic acid, RNA, is the primary messenger molecule in cells. RNA differs slightly from DNA its chemical structure and contains no Thymine. In RNA Thymine is replaced by another nucleic acid Uracil ('U').
+
+Create a function which translates a given DNA string into RNA.
+
+```
+function DNAtoRNA(dna) {
+  let name = dna;
+  while(name.indexOf('T')!=-1) {
+    name = name.replace('T','U');
+  }
+  return name;
+}
+```
+===
+## Education
+* BSTU “Voenmeh” - Software Engineering
+* Self-education (Youtube, online courses etc.)
+===
+## Languages
+* Russian - native
+* English - B
+* French - A
