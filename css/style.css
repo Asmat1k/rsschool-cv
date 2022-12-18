@@ -286,7 +286,10 @@ a {
       width: 100%; }
       .main-wrapper .left-section .left-section__photo {
         margin: 0;
-        width: 90%; }
+        width: 100%; }
+        .main-wrapper .left-section .left-section__photo .photo {
+          width: 100%;
+          border-radius: 50%; }
       .main-wrapper .left-section .left-section__info {
         margin: 20px 0; }
       .main-wrapper .left-section .left-section__skills {
