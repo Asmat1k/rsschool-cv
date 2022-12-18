@@ -265,6 +265,8 @@ a {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
+      .footer .footer__inf .git-link a img {
+        width: 42px; }
     .footer .footer__inf .year {
       padding-left: 20px;
       display: -webkit-box;
