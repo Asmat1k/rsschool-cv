@@ -274,3 +274,57 @@ a {
       -ms-flex-align: center;
       align-items: center;
       max-width: 100px; }
+
+@media (max-width: 575px) {
+  .main-wrapper {
+    display: block;
+    max-width: 570px; }
+    .main-wrapper .left-section {
+      margin: 0;
+      width: 100%; }
+      .main-wrapper .left-section .left-section__photo {
+        margin: 0;
+        width: 90%; }
+      .main-wrapper .left-section .left-section__info {
+        margin: 20px 0; }
+      .main-wrapper .left-section .left-section__skills {
+        margin-bottom: 0; }
+      .main-wrapper .left-section .left-section__language {
+        margin: 20px 0; }
+    .main-wrapper .right-section {
+      margin: 0px;
+      width: 100%; }
+      .main-wrapper .right-section .right-section__nav {
+        display: none; }
+        .main-wrapper .right-section .right-section__nav .right-section__list {
+          max-width: 500px; }
+          .main-wrapper .right-section .right-section__nav .right-section__list li {
+            text-align: center;
+            margin-right: 15px; }
+      .main-wrapper .right-section .right-section__top {
+        border-top: 1px solid #49fa02;
+        max-width: 100%;
+        margin-bottom: 30px; }
+        .main-wrapper .right-section .right-section__top .right-section__name {
+          margin: 0;
+          max-width: 100%;
+          text-align: center;
+          font-size: 70px;
+          line-height: 80px; }
+        .main-wrapper .right-section .right-section__top .right-section__profession {
+          max-width: 100%;
+          text-align: center;
+          font-size: 20px; }
+      .main-wrapper .right-section .right-section__text {
+        max-width: 570px; }
+        .main-wrapper .right-section .right-section__text .right-section__about {
+          margin: 30px 0; }
+        .main-wrapper .right-section .right-section__text .right-section__example .right-section__code {
+          background-color: #1f1f1f;
+          border-radius: 25px;
+          padding: 5px;
+          white-space: pre;
+          text-align: left; }
+  .footer {
+    width: 100%;
+    display: block; } }
