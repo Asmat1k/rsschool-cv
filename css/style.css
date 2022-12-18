@@ -85,33 +85,6 @@ h2::after {
 a {
   color: white; }
 
-li {
-  position: relative; }
-
-li a:hover {
-  -webkit-transition: 1s all;
-  -o-transition: 1s all;
-  transition: 1s all;
-  color: #49fa02; }
-
-li a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  display: block;
-  background: none repeat scroll 0 0 transparent;
-  height: 2px;
-  width: 0;
-  background: #49fa02;
-  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s; }
-
-li a:hover::after {
-  width: 100%;
-  left: 0; }
-
 .main-wrapper {
   top: 0;
   padding: 15px;
@@ -209,6 +182,29 @@ li a:hover::after {
           margin-right: 50px; }
         .main-wrapper .right-section .right-section__nav .right-section__list li:last-child {
           margin: 0; }
+        .main-wrapper .right-section .right-section__nav .right-section__list li {
+          position: relative; }
+        .main-wrapper .right-section .right-section__nav .right-section__list li a:hover {
+          -webkit-transition: 1s all;
+          -o-transition: 1s all;
+          transition: 1s all;
+          color: #49fa02; }
+        .main-wrapper .right-section .right-section__nav .right-section__list li a::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          display: block;
+          background: none repeat scroll 0 0 transparent;
+          height: 2px;
+          width: 0;
+          background: #49fa02;
+          -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s; }
+        .main-wrapper .right-section .right-section__nav .right-section__list li a:hover::after {
+          width: 100%;
+          left: 0; }
     .main-wrapper .right-section .right-section__top {
       max-width: 500px;
       margin-bottom: 120px; }
