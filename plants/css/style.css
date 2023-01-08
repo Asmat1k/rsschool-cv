@@ -60,6 +60,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit; }
 
 /*--------------------*/
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: 'Inika', serif;
   font-weight: 400;
@@ -165,9 +168,9 @@ header {
   box-shadow: 4px 4px 8px rgba(0, 125, 0, 0.25); }
 
 .but-list:hover {
-  -webkit-transition: all .8s;
-  -o-transition: all .8s;
-  transition: all .8s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
   -webkit-box-shadow: 4px 4px 8px rgba(0, 125, 0, 0.25);
   box-shadow: 4px 4px 8px rgba(0, 125, 0, 0.25); }
 
@@ -329,6 +332,7 @@ main {
         main .section-prices .section-prices__wrapper .section-prices__left .section-prices__item .section-prices-item__wrapper {
           padding: 34px 41px; }
           main .section-prices .section-prices__wrapper .section-prices__left .section-prices__item .section-prices-item__wrapper .list {
+            cursor: pointer;
             position: relative;
             width: 250px;
             height: 50px;
@@ -417,6 +421,7 @@ main {
         font-size: 40px;
         line-height: 52px; }
       main .section-contacts .section-contacts__wrapper .section-contacts__info .list {
+        cursor: pointer;
         margin: 37px 0  0 372px;
         position: relative;
         width: 450px;
@@ -458,7 +463,6 @@ main {
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
-  text-decoration: underline;
   color: #636060; }
 
 footer {
